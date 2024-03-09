@@ -1,4 +1,4 @@
-# Automated for Dynfi Manager Installation on Debian 11
+# Automated for Dynfi Manager Installation on Debian 11/12...
 
 This script automates the installation process for setting up Java 11, MongoDB, and Dynfi Manager on any Linux system. It downloads and installs the necessary components, sets up environment variables, and starts the required services for a functional setup.
 
