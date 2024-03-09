@@ -20,7 +20,7 @@ This script automates the installation process for setting up Java 11, MongoDB, 
 1. Clone the repository or download the `001_Dynfi_MGR_Debian.bash` script:
 
     ```bash
-    git clone https://github.com/your-username/Install_auto_Dynfi-MGR.git
+    git clone https://github.com/NANDILLONMaxence/Install_auto_Dynfi-MGR.git
     ```
 
 2. Navigate to the script directory:
