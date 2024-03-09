@@ -69,8 +69,6 @@ This script automates the installation process for setting up Java 11, MongoDB, 
 
   ```bash
   # New config MongoDB
-  #rm -rf /etc/mongod.conf
-  # Config dynfi.conf
   echo "
   # mongod.conf
 
