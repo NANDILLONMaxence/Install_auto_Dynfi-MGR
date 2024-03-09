@@ -32,13 +32,13 @@ This script automates the installation process for setting up Java 11, MongoDB, 
 3. Make the script executable:
 
     ```bash
-    chmod +x 001_Dynfi_MGR_Debian.bash`
+    chmod +x 001_Dynfi_MGR_Debian.bash
     ```
 
 4. Run the script:
 
     ```bash
-    ./001_Dynfi_MGR_Debian.bash`
+    ./001_Dynfi_MGR_Debian.bash
     ```
 
 5. Follow the on-screen instructions to complete the installation of Java 11, MongoDB, and Dynfi Manager.
@@ -59,7 +59,7 @@ This script automates the installation process for setting up Java 11, MongoDB, 
   # Configuration Portal and connection BDD
   ipAndPort= 0.0.0.0:9090
   useHttps=false
-  mongoClientUri=mongodb://192.168.100.11:27017
+  mongoClientUri=mongodb://localhost        #[ip]:[port: 27017]
   mongoDatabase=dynfi" | sudo tee /etc/dynfi.conf > /dev/null
 
   sudo systemctl restart dynfi.service 
@@ -102,7 +102,7 @@ This script automates the installation process for setting up Java 11, MongoDB, 
     timeZoneInfo: /usr/share/zoneinfo
 
   security:
-    authorization: enabled # for bdd externe
+    authorization: enabled # For bdd externe
 
   #operationProfiling:
 
