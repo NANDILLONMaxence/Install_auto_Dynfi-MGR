@@ -125,6 +125,6 @@ This script automates the installation process for setting up Java 11, MongoDB, 
 
 ## Contributions
 
-Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+#### Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
 ----
 
